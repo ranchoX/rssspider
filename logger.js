@@ -1,6 +1,5 @@
 var winston=require('winston');
 var transports =[
-		
 		new (winston.transports.DailyRotateFile)(
 	  	{
 	  		dirname : __dirname+'/logs',
